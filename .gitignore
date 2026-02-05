@@ -1,0 +1,35 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# User usage / Media files
+uploads/
+temp_*
+*.jpg
+*.jpeg
+*.png
+*.pdf
+
+# Exception: Keep standard asset images if they exist in source directories, but ignore generated ones
+!frontend/src/assets/**
